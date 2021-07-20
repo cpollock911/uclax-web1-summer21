@@ -50,9 +50,9 @@ const Homework = () => {
             </Essay>
             <Essay
                 number={ 3 }
-                question='What is the difference between Web Designer, Front End Developer and Back End Developer?'
+                question='What are Single Page Apps (SPAs)? How do they differ from traditional multi-page Web Sites?'
             >
-                <h2>Web Designer, Front End Developer, and Back End Developer</h2>
+                <h2>SPAs and Multi-Page Web Sites</h2>
             </Essay>
         </div>
     );
