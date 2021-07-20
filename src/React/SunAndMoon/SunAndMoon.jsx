@@ -5,19 +5,19 @@ const SunAndMoon = () => {
 
     const [imageState, imageStateUpdate] = useState('/img/sun.png');
 
-    const handleOnMouseOver = () => {
-        console.log('Mousing over');
-        imageStateUpdate('/img/moon.png');
-    }
     const handleOnMouseOut = () => {
         console.log('Mousing out');
+        imageStateUpdate('/img/moon.png');
+    }
+    const handleOnMouseOver = () => {
+        console.log('Mousing over');
         imageStateUpdate('/img/sun.png');
 
     }
 
     return (
         <SunAndMoonStyled>
-            <h2>Sun And Moon Changes</h2>
+            <h2>Sun And Moon</h2>
             <img 
                 src={ imageState }
                 alt='Sun' 
@@ -31,14 +31,14 @@ const SunAndMoon = () => {
 export default SunAndMoon;
 
 const SunAndMoonStyled = styled.div`
-    background-color: yellow;
+    background-color: #ece7fa;
 
     text-align: center;
     padding-bottom: 50px;
 
     h2 {
-        background-color: pink;
-        color: white;
+        background-color: #ece7fa;
+        color: black;
     }
 
 `;

@@ -5,7 +5,7 @@ import Essay from './Essay.jsx';
 const Homework = () => {
     return (
         <div>
-            Homework
+            <h2>Homework</h2>
             <Essay
                 number={ 1 }
                 question='What is the difference between Git, Github and Heroku?'
@@ -47,6 +47,12 @@ const Homework = () => {
                 <p>
                 HTML, CSS, and JS all work together to create an engaging web page for browsers.  Each language has its purpose for the functionality of a website.  HTML provides structure, CSS provides stylization, and JS creates interactive content.
                 </p>
+            </Essay>
+            <Essay
+                number={ 3 }
+                question='What is the difference between Web Designer, Front End Developer and Back End Developer?'
+            >
+                <h2>Web Designer, Front End Developer, and Back End Developer</h2>
             </Essay>
         </div>
     );
