@@ -53,6 +53,15 @@ const Homework = () => {
                 question='What are Single Page Apps (SPAs)? How do they differ from traditional multi-page Web Sites?'
             >
                 <h2>SPAs and Multi-Page Web Sites</h2>
+                <p>
+                Maintaining websites and applications can be held in two main formats, single-page application (SPAs) or multi-page.   Each design has different purposes, making them necessary for a developer based on their project.  In this essay, I will be discussing the main differences between both design formats and how they are applicable.
+                </p>
+                <p>
+                A single-page application, or SPA, is a web application or website that interacts with the user dynamically.  Apps like Facebook, Google Maps, and Twitter are all examples of SPAs.  This type of design will not require the page to reload while using it within the browser. Instead, the necessary coding is either pulled by the browser with a single-page load or dynamically loaded when needed based on the user's input. As a result, SPAs are easier to navigate, update, and use when compared with the multi-page format.  The multi-page form will require multiple pages with static information that links to other pages that share similar content.  A browser will reload the content when going from page to page to navigate through a multi-page website.  Due to a large amount of information across multiple pages, SEO has significantly benefited from utilizing keywords.  In comparison, SPAs do not benefit significantly from SEO due to the lack of information and keywords.
+                </p>
+                <p>
+                Both single-page applications and multi-page websites have their benefits when building a website or application.  Each design has its purpose for the functionality of a website.  SPAs can create a more seamless user experience through minimal interfaces and loading quickly.  Multi-page websites have an easier time when it comes to SEO and still benefits from navigation and user experience.
+                </p>
             </Essay>
         </div>
     );
