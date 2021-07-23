@@ -4,7 +4,6 @@ import styled from 'styled-components';
 const Essay = ({ number, question, children }) => {
     return (
         <EssayStyled>
-            <h3>Essay</h3>
             <div className="question">{question}</div>
             <div className="answer">{children}</div>
         </EssayStyled>

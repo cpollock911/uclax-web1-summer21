@@ -10,7 +10,7 @@ const Homework = () => {
                 number={ 1 }
                 question='What is the difference between Git, Github and Heroku?'
             >
-                <h2>Git, GitHub, and Heroku</h2>
+                <h3>Git, GitHub, and Heroku</h3>
                 <p>
                 Programmers utilize Git, GitHub, and Heroku to deal with their coding developments.   Each site has different features, making them more appealing to a developer based on their project.  In this essay, I will be discussing the main differences between the three platforms and how they are applicable.
                 </p>
@@ -31,7 +31,7 @@ const Homework = () => {
                 number={ 2 }
                 question='Explain the difference between HTML, CSS and JS.'
             >
-                <h2>HTML, CSS, and JavaScript</h2>
+                <h3>HTML, CSS, and JavaScript</h3>
                 <p>
                 Programmers utilize HTML, CCS, and JavaScript to deal with their coding developments.   Each programming language has different purposes, making them necessary for a developer based on their project.  In this essay, I will be discussing the main differences between the three programming languages and how they are applicable.
                 </p>
@@ -52,7 +52,7 @@ const Homework = () => {
                 number={ 3 }
                 question='What are Single Page Apps (SPAs)? How do they differ from traditional multi-page Web Sites?'
             >
-                <h2>SPAs and Multi-Page Web Sites</h2>
+                <h3>SPAs and Multi-Page Web Sites</h3>
                 <p>
                 Maintaining websites and applications can be held in two main formats, single-page application (SPAs) or multi-page.   Each design has different purposes, making them necessary for a developer based on their project.  In this essay, I will be discussing the main differences between both design formats and how they are applicable.
                 </p>
@@ -63,8 +63,15 @@ const Homework = () => {
                 Both single-page applications and multi-page websites have their benefits when building a website or application.  Each design has its purpose for the functionality of a website.  SPAs can create a more seamless user experience through minimal interfaces and loading quickly.  Multi-page websites have an easier time when it comes to SEO and still benefits from navigation and user experience.
                 </p>
             </Essay>
+            <Essay
+                number={ 4 }
+                question='What is the difference between Web Designer, Front End Developer and Back End Developer?'
+            >
+                <h3>Web Designer, Front End Developer, and Back End Developer</h3>
+            
+            </Essay>
         </div>
     );
-    }
+}
 
     export default Homework;
