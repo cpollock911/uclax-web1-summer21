@@ -71,8 +71,28 @@ const Homework = () => {
                 number={ 4 }
                 question='What is the difference between Web Designer, Front End Developer and Back End Developer?'
             >
-                <h3>Web Designer, Front End Developer, and Back End Developer</h3>
-            
+                <h3>Web Designer, Front-End Developer, and Back-End Developer</h3>
+                <p>
+                Web designers, front-end developers, and back-end developers all play varying roles when dealing with their coding developments. Furthermore, each position focuses on different tasks when it comes to web development.  In this essay, I will be discussing the main differences between the three job titles and how they come into play.
+                </p>
+                <p>
+                A web designer's primary role is creating a user interface that is both aesthetically pleasing and user-friendly.  This position focuses on building web pages that consider the brand's aesthetic and its overall userbase.  For instance, if a financial calculator company were selling its product to a financial institution, the web designer would want to outfit the calculators to match the aesthetic of the financial institution's website. In addition, they would focus on the overall aesthetic through fonts, colors, layouts, and images.  Web designers also need to consider who the audience is when developing their pages.  For instance, if you had an older clientele, you would want to have a website that has an easy-to-read font, fewer images, and more text.
+                </p>
+                <p>
+                Front-end web developers will produce HTML, CSS, and JS for a web page or application to interact directly with the client.  This position completely differs from a web designer.  While web designers focus on the aesthetic and functionality of the site or application, a front-end developer will create the graphical interface through code. In addition, front-end developers will allow people to utilize these interfaces through web browsers, headless browsers, webviews, and native from web tech.  For example, React can create native applications without using web engines and be considered newer web technology.  Front-end developers are essential because they implement the strategy from the web designers to bring the project to life.
+                </p>
+                <p>
+                Back-end developers focus on building and maintaining the technology needed to power the client-side websites produced by web designers and front-end developers.  Back-end components refer to components like the server, application, database, API, and data and application integration, which powers the website. In addition, these developers will focus on creating a stable connection between the user and the website or web application.
+                </p>
+                <p>
+                Web designers, front-end developers, and back-end developers all play fundamental roles in website and application development.  Each position must collaborate to maintain the existence and branding of their project.  Web designers will create the overall look of the application or website through font, color, imagery, and layouts.  Front-end developers will implement this vision through HTML, CSS, and JS to create client-side interaction.  Finally, back-end developers will maintain these applications or websites through creating and maintaining servers, databases, APIs, and data and application integration.
+                </p>
+            </Essay>
+            <Essay
+                number={ 5 }
+                question='Distinguish the difference between Site Relative, Document Relative, and Absolute Paths.'
+            >
+                <h3>Site Relative, Document Relative, and Absolute Paths</h3>
             </Essay>
         </div>
     );
