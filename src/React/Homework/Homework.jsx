@@ -1,12 +1,20 @@
 import React from 'react';
 
+import { useMediaQuery } from 'common/mediaQueries/useMediaQuery.js';
+
 import Essay from './Essay.jsx';
 import SunAndMoon from '../SunAndMoon/SunAndMoon.jsx';
 
 const Homework = () => {
+
+    const { media } = useMediaQuery();
+
+    console.log('media', media);
+
     return (
         <div>
-            <SunAndMoon />
+            
+            { media.lg && <SunAndMoon /> }
 
             <h2>Homework</h2>
 
