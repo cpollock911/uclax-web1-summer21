@@ -42,7 +42,7 @@ const MainStyled = styled.main`
     text-align: center;
 
     div {
-       border: solid 2px white;
+       border: solid 2px #d6c7fa;
        padding: 20px;
     }
 `;

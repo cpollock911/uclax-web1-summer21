@@ -5,7 +5,9 @@ const Slideshow = () => {
 
     return (
         <SlideshowStyled className='Slideshow'>
+            <div className="inset-container">
             Slideshow Page
+            </div>
         </SlideshowStyled>
     );
 }

@@ -5,7 +5,9 @@ const Staff = () => {
 
     return (
         <StaffStyled className='Staff'>
+            <div className="inset-container">
             Staff Page
+            </div>
         </StaffStyled>
     );
 }
