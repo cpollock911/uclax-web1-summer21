@@ -101,6 +101,21 @@ const Homework = () => {
                 question='Distinguish the difference between Site Relative, Document Relative, and Absolute Paths.'
             >
                 <h3>Site Relative, Document Relative, and Absolute Paths</h3>
+                <p>
+                Link paths are fundamental when creating a website.  There are three types of link paths: site-relative paths, document-relative paths, and absolute paths.  In this essay, I will be discussing the differences between the types of link paths and how they are helpful.
+                </p>
+                <p>
+                Site root-relative paths describe a path from a site's root folder to a specific document.  The forward-leaning slash ( / ) will signify the root folder of the website.  For example, "/staff/profile.html" would link the path to "profile.html" from within the staff subfolder of the site's root folder.  This path type is typically helpful for larger websites that utilize multiple servers or a single server that hosts multiple websites.  In addition, it is useful when moving HTML files from folder to folder within the website.  Once that is complete, there needs to be an update to the pathway links for each folder.   Essentially, site root-relative paths are only helpful for more significant sites or servers when compared to document-relative paths.    
+                </p>
+                <p>
+                Document-relative paths are more beneficial when the documents and folders consistently remain together.  This path type utilizes folder hierarchy to signify linking documents to others.  In addition, it allows the developer to connect documents across folders as well.  Document-relative paths also use the forward-leaning slash, but instead, it moves one level down in the folder hierarchy.  To move up a level within the folder hierarchy, the developer would utilize two dots and a forward-leaning slash ( ../ ).  For example, if I wanted to link an HTML file within a folder to a website, I would use "/staff/profile.html."  If I wanted to link that to my contacts element, I would then use "../contacts/contacts.html".  This method is helpful because it essentially omits a part of the absolute path.  Furthermore, it is beneficial to use when moving files as a group within an entire folder because the folder will retain the same relative paths to each other.
+                </p>
+                <p>
+                Absolute paths are essentially the complete URL for a linked document, which also includes the protocol.  For example, "http://www.soiled.la/shop/catalogue/catalogue.html" would be a direct link to the "catalogue.html" file.  An absolute path has all the necessary details for locating a file or folder, which typically begins with the root element and ends in a subfolder.  The best practice for absolute paths would be linking a document or asset from another server or inserting images from a remote server.  For example, if I wanted to open a new link to another website, I would like to use an absolute path. On the other hand, if I wanted to link to an image or file on my current website, I would use document-relative paths.
+                </p>
+                <p>
+                Each path type has its benefits when it comes to linking documents or assets onto a webpage. For example, site root-relative paths are essential for more significant sites or servers that intend on moving HTML files from folder to folder.  Meanwhile, document-relative pathways are helpful for most websites that are linking from web page to web page.  They typically benefit when moving files as a group within a folder to retain the same paths for them.  Lastly, absolute paths are essential when linking to assets that are off the website or on a remote server.
+                </p>
             </Essay>
         </div>
     );
