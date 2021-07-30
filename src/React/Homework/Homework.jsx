@@ -117,6 +117,13 @@ const Homework = () => {
                 Each path type has its benefits when it comes to linking documents or assets onto a webpage. For example, site root-relative paths are essential for more significant sites or servers that intend on moving HTML files from folder to folder.  Meanwhile, document-relative pathways are helpful for most websites that are linking from web page to web page.  They typically benefit when moving files as a group within a folder to retain the same paths for them.  Lastly, absolute paths are essential when linking to assets that are off the website or on a remote server.
                 </p>
             </Essay>
+            <Essay
+                number={ 6 }
+                question='What is the difference between jpg, gif, png and SVG images?'
+            >
+                <h3>jpg, gif, png and SVG images</h3>
+
+            </Essay>
         </div>
     );
 }
