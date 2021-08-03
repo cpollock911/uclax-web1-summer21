@@ -121,8 +121,31 @@ const Homework = () => {
                 number={ 6 }
                 question='What is the difference between jpg, gif, png and SVG images?'
             >
-                <h3>jpg, gif, png and SVG images</h3>
-
+                <h3>JPG, GIF, PNG and SVG Images</h3>
+                <p>
+                    Proper file formatting is essential when it comes to web design.  The most common file formats include JPG, GIF, PNG, and SVG.  Each form has its purpose and function.  In this essay, I will be discussing each format and how they differentiate from each other.   
+                </p>
+                <p>
+                    JPEG images work best when it comes to both digital images and photography.  JPEG, or joint photographic expert group, is a file format with a reasonable compression rate when it comes to colors and loses a small amount of information after saving the image.  Due to this quality, the image will preserve a majority of the original artwork when saving.  A JPEG is also a raster-based image, which means that it is pixel-based.  Typically, JPEGs do not perform well when it comes to transparency and being either icons or animations. However, JPEGs do work well when printing any image and will give you the highest resolution.
+                </p>
+                <p>
+                    GIF files are typically known for producing simple animations.  Today, you would see GIFs all over social media and social platforms to create memes. However, web designers do not utilize GIFs due to their limited capacity.  GIFs are 8-bit based, which means they are limited to 8 bits per pixel.  Having 8 bits per pixel also means that the color palette can only hold up to the standard 256 options.  PNG files share this 8-bit quality as a PNG-8 file; however, PNG has improved upon GIFs by creating a PNG-24 file.  PNGs can also be transparent, which is not possible for GIFs due to being binary-based.  Another main difference between a GIF and a PNG file is that GIF files do allow simple animations, while PNG files do not.  
+                </p>
+                <p>
+                    The PNG format, or portable network graphic, was meant to be an improvement upon GIFs.  PNG files are either PNG-8 or PNG-24.  PNG-8 file types are similar to GIFs due to having 8 bits per pixel, thus limiting the color palette to 256.  PNG-24 file types can have 24 bits per pixel, which exponentially expands the color palette.  Web designers typically use PNGs for their web pages.  PNGs allow images to be transparent or have a clear background, which means that the format is excellent for images, icons, and graphics.  However, SVG files are even better for logos and line art due to being vector-based.    
+                </p>
+                <p>
+                    An SVG, or a scalable vector graphic, is another image file format that allows 2D images on the internet.  The main difference between an SVG file and a PNG file is that SVGs are vector-based images that comprise a set of mathematical figures. At the same time, PNGs are binary while utilizing lossless compression to show the image as pixels.  For example, I would want to use an SVG file to create a logo for my company's website.  Vector-based graphics are not pixel-based, which means that the image will not lose quality when resizing the file.  Therefore, the graphic would be completely scalable across monitor and device sizes, thus making it especially useful towards retina display and mobile devices.  The ability to utilize any color for an SVG image also sets itself apart from other imaging formats.  SVGs can also be searched, indexed, scripted, and compressed due to having their behaviors in XML files, while other formats cannot.  
+                </p>
+                <p>
+                    JPG, GIF, PNG, and SVG are all essential file formats with specific uses for the web.  JPG files are best for digital images and photography and are best for printing and web.  GIF files are not meant for web design but are great for creating simple animations to share across social media and social platforms.  PNG files improve GIFs by adding transparency for images and increasing the file size to 24 bits per pixel and are great for the web.  Finally, SVG files are vector-based, thus making them scalable across multiple monitors and displays, making them crucial when creating a logo that can retain its quality.
+                </p>
+            </Essay>
+            <Essay
+                number={ 7 }
+                question='Define the following roles: Project Manager, Business Analyst, Scrum Master, UX designer, Web Developer/Engineer, Quality Assurance Tester, and DevOps.'
+            >
+                <h3>Varying Positions</h3>
             </Essay>
         </div>
     );
