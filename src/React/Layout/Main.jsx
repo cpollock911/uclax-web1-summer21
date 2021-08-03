@@ -39,10 +39,9 @@ export default Main;
 const MainStyled = styled.main`
     background-color: #ece7fa;
     padding: 10px;
-    text-align: center;
 
-    div {
+   /* div {
        border: solid 2px #d6c7fa;
        padding: 20px;
-    }
+    } */
 `;
