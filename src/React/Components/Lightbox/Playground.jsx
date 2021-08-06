@@ -1,14 +1,22 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import Lightbox from './Lightbox.jsx';
+import Lightbox from 'React/Components/Lightbox/Lightbox.jsx';
 
 const Playground = () => {
+
+    const LightboxContent = () => {
+        return (
+            <div>Content</div>
+        );
+    }
 
     return (
         <PlaygroundStyled className='Playground'>
             <h2>Playground</h2>
-            <Lightbox /> 
+            <Lightbox LightboxContent={ LightboxContent }>
+                Content
+            </Lightbox>
         </PlaygroundStyled>
     );
 }
