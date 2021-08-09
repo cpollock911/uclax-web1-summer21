@@ -145,7 +145,58 @@ const Homework = () => {
                 number={ 7 }
                 question='Define the following roles: Project Manager, Business Analyst, Scrum Master, UX designer, Web Developer/Engineer, Quality Assurance Tester, and DevOps.'
             >
-                <h3>Varying Positions</h3>
+                <h3>Defining Positions</h3>
+                <p>
+                    Software and web development teams require multiple roles to create a symbiotic atmosphere for completing their respective projects.  Project managers, business analysts, scrum masters, UX designers, web developers/engineers, quality assurance testers, and DevOps all play crucial roles for their teams.</p>
+                <p>Project managers deal with planning, scheduling, budgeting, executing, and delivering software and web projects.  In addition, they typically manage a team and the people on it to ensure the success of the various projects. Therefore, the position also has to encourage positive team morale and leadership, which is equally important. Finally, project managers must keep the company's expectations in mind when working with their stakeholders.
+
+                </p>
+                <p>
+                    Business analysts are members of the product development team.  They analyze the business domain, document processes and systems, outline business requirements, and match a software business model with the built software. In addition, they utilize real-time data and analytic programs when identifying user trends.  They are part of the team that project managers oversee and communicate its vision and requirements to its key stakeholders.
+                </p>
+                <p>
+                    Scrum itself is a process framework that helps manage product development and other knowledge work.  A scrum master typically oversees the scrum team and scrum ceremonies. In addition, they are responsible for ensuring that the team lives Agile values and principles and following the agreed-upon processes and practices to help the team clear obstacles.  This role is typically not a full-time position since it is dependant on the overall workload of the scrum team.
+                </p>
+                <p>
+                    A UX designer focuses on the user's experience when interacting with the software, website, or application.  This position will typically be the user's voice and will advocate their needs when communicating with their respective team.  The UX designer will essentially fine-tune the application for its usability and fix any end-user issues.  In addition, they also will work with developers and product teams for their respective projects.
+                </p>
+                <p>
+                    Web developers' primary role is the creation and upkeep of a website.  They utilize multiple programming languages to create the layout and content for the website.  In addition, the web developer does need to keep the user's experience in mind when establishing the website.  Ultimately, they are responsible for technical aspects, such as the site's performance and capacity, measuring its speed and traffic capabilities.</p>
+                <p>
+                    The quality assurance tester will deal with user-end issues, such as crashing websites, gaming bugs, and viruses in software.  Their primary function involves examining new or existing computer software applications to ensure that they are correctly functioning.  In addition, a quality assurance tester must uphold the company's standards and values.
+                </p>
+                <p>
+                    The DevOps position plays an integral role between software development and IT teams.  DevOps need to ensure the functioning of software programs by conducting system tests for security, functionality, performance, and availability.  In addition, they need to be proficient in scripting since they will utilize programming languages like Python and Perl.
+                </p>
+                <p>
+                    All of the roles play crucial parts when dealing with software development. But, most importantly, the roles will typically work together to create a functioning software development team that aims to execute both standards and quality for their projects.
+                </p>
+
+            </Essay>
+            <Essay
+                number={ 8 }
+                question='What is considered the right size for an image or video asset?'
+            >
+                <h3>Correct Image and Video Sizing</h3>
+                <p>
+                Unoptimized images will negatively affect your website's speed, user experience, SEO ranking, and sales. Therefore, when uploading images or videos to the web, one needs to consider what they are using the image for, how large the file should be, and figure the type of image for it. In addition, image and video assets must maintain correct sizing to guarantee quality site performance.
+                </p>
+                <p>
+                Image dimensions factor in the image's purpose.  Full-width images have a recommended size of 2400x1600px for optimization.  This dimension is best because it looks great across multiple devices and screen sizes.  It is best to determine if the image is horizontal or vertical when dealing with inside content images.  Horizontal images will have a max-width of 1500px while vertical images will have a max-width of 1000px. Slideshow gallery images will need to have all images with the same height, which should be 1500px regardless if the image is horizontal or vertical.  Meanwhile, blog post images typically need to be 1500px wide, with all images sharing that quality.  Overall, it is best to ensure all images are saving as JPG and the web.
+                </p>
+                <p>
+                When it comes to video assets for the web, it is best to utilize a 16:9 aspect ratio to look best across multiple devices.  Common resolution sizes would include 1920x1080px and 1280x720px.  The video size will also determine the quality, which can range from standard video quality to ultra HD or 4k.  It is best to keep the minimum resolution to 720px.
+                </p>
+                <p>
+                Optimizing your images and videos for the web is vital for preserving user experience and higher loading speeds.  If the user has a poor experience, then your content will most likely not be revisited. Conversely, using correct dimensions to upload images can create a positive user experience and keep them returning.
+                </p>
+            </Essay>
+            <Essay
+                number={ 9 }
+                question='What it means for a company to be Agile. What is the purpose of using Agile, and its Pros and Cons'
+            >
+                <h3>Defining Agile</h3>
+
             </Essay>
         </div>
     );
