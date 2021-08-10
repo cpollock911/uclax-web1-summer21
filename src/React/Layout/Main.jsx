@@ -15,13 +15,13 @@ const Main = () => {
             <h1>Main Content</h1>
            <Switch>
                <Route path='/services'>
-                   Services
+                   <Services />
                 </Route>
                 <Route path='/contact'>
                    <Contact />
                 </Route>
                 <Route path='/login'>
-                   Login
+                   <Login />
                 </Route>
                 <Route path='/homework'>
                    <Homework />
