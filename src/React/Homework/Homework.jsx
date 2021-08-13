@@ -196,7 +196,29 @@ const Homework = () => {
                 question='What it means for a company to be Agile. What is the purpose of using Agile, and its Pros and Cons'
             >
                 <h3>Defining Agile</h3>
-
+                <p>
+                The 2001 Manifesto for Agile Software Development, which focuses on values and principles primarily derived from frameworks like Scrum, became popular for software developers and companies.  Essentially, Agile focuses on a set of practices that improves the overall effectiveness of software development companies and groups. In addition, agile software development has specific values that they focus on to collaborate more efficiently while finishing the project.
+                </p>
+                <p>Software development companies choose to be Agile for multiple reasons.  Agile software development focuses on four central values:
+                    <ul>Individuals and interaction over processes and tools.</ul>
+                    <ul>Working software over comprehensive documentation.</ul>
+                    <ul>Customer collaboration over contract negotiation.</ul>
+                    <ul>Responding to change over following a plan.</ul>
+                The values create a more efficient team while consistently boosting overall morale due to constant communication between members. As a result, teammates can collaborate more efficiently with each other and the key stakeholders and customers.
+                </p>
+                <p>
+                The Agile method does have its benefits and weaknesses.  This method allows the software to get deployed at quicker rates due to flexibility and adaptability.  It can also help fix issues and defects quicker due to team members working simultaneously and catching errors.  This method can also lead to immediate feedback, which can improve someone's skill set.  It also has a large community filled with knowledge, which also allows the general improvement of skills.   Despite these benefits, Agile also has its weaknesses.  Due to focusing on working software, documentation often gets left behind, making it more difficult for newer members to get caught up.  In addition, the faster turnaround times and deployment of software can often lead to a lack of overall design, both from a user experience standpoint and structural standpoint.  The Agile method also requires more time and energy from everyone due to constant communication.
+                </p>
+                <p>
+                Overall, the Agile method does have its place within the software development community.  Anecdotes support overall efficiency when implementing these practices; however, there is a lack of empirical data to back these claims up.  With ever-advancing technology, it is best to have adaptability and efficiency in finishing a project effectively.   
+                </p>
+            </Essay>
+            <Essay
+                number={ 10 }
+                question='What are testing environments? What is the difference between Local, Dev, QA and Production?'
+            >
+                <h3>Testing Environments</h3>
+                
             </Essay>
         </div>
     );

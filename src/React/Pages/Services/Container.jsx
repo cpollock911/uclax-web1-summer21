@@ -1,15 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
+
+import { servicesData } from './servicesData.js';
 
 import Gallery from './Gallery/Gallery.jsx';
 import Categories from './Categories/Categories.jsx';
 
 const Container = () => {
 
+    const { categories, services } = servicesData;
+
+    const [curCat, curCatUpdate] = useState(categories[1]);
+
+    console.log('curCat', curCat);
+
     return (
         <ContainerStyled className='Container'>
-            <Gallery />
-            <Categories /> 
+            <p>{ curCat }</p>
+            <Categories 
+                categories={ categories } 
+                curCat={ curCat }
+                curCatUpdate={ curCatUpdate }
+                />
+            <Gallery services={ services } curCat={ curCat }/>
         </ContainerStyled>
     );
 }
