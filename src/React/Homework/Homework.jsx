@@ -217,8 +217,24 @@ const Homework = () => {
                 number={ 10 }
                 question='What are testing environments? What is the difference between Local, Dev, QA and Production?'
             >
-                <h3>Testing Environments</h3>
+                <h3>Software Development Environments</h3>
+                <p>Developing software utilizes five primary environments for its lifecycle, which involves local, development, QA, staging, and production.  In this essay, I will be discussing what testing environments are and the differences between local, development, QA, and production environments.</p>
+                <p>Testing environments are essential for managing and deploying software applications.  Developers often change their code through the developing process, typically creating clones to determine if it contains any bugs or glitches.  The location and state of these clones are known as testing environments.  These environments still utilize the hardware and operating system in which the clone resides.  In addition, testing environments focus on fast and cheap tests like unit and component testing or slower and more expensive tests like UI layer testing.  Other testing routines include performance tests, system integration tests, alpha and beta tests, unit tests, accessibility tests, user acceptance tests (UAT), and usability tests.</p>
+                <p>Local, development, QA, and production are all environments where an application will go through to get ready for deployment.  The local environment will primarily stay within the confines of the developer's hardware and operating system.  Developing in a local environment means that the developer can test their code out locally on their system.  If necessary, the developer can work out any bugs or glitches through unit tests, integration tests with mock components, and UI tests.  If the component works, then it can be sent to the development environment. </p>
+                <p>The key difference between local and development environments is that the development environment is a sharing environment amongst other developers. As a result, the component is consistently undergoing testing by different teams, which creates an unstable environment.  The software will likely fail during this period due to full integration with outside services.  Testing for this environment involves:
+                        <ul>Unit tests</ul>
+                        <ul>Integration tests with mock components</ul>
+                        <ul>UI tests with mock data and system health checks</ul>
+                    Once the software can successfully integrate with outside services, the developers can move onto the QA environment.</p>
+                <p>Manually deploying the software occurs for the first time in the QA environment. In addition, the QA team is responsible for this environment, which makes it more controllable and allows the team to focus on integrating various features.  Due to the level of control by the QA team, the QA environment offers less chaos because of the lack of sporadic changes.  At this point, the software will have the same infrastructure and application as it will when it's in production.  Production-like data will also help complete this stage since it can catch problems after deployment.  Testing for this environment involves open-ended exploratory tests and security tests to ensure fewer technical and user flow problems.  Once this completes, the software will be ready for the production environment.</p>
+                <p>The production environment involves deployment, and the user interacts with the latest software and code. However, reaching the production environment can still allow testing within the development and QA environment without affecting the current application.  All of these environments are crucial for a successful software development lifecycle.  Each environment has its purpose and utilizes testing environments throughout the entire lifecycle.</p> 
                 
+            </Essay>
+            <Essay
+                number={ 11 }
+                question='Function vs Form: When are web images considered part of the content (HTML) as opposed to part of the appearance (CSS)?'
+            >
+                <h3>HTML and CSS: Web Images</h3>
             </Essay>
         </div>
     );
