@@ -1,27 +1,33 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import { useMediaQuery } from 'common/mediaQueries/useMediaQuery';
+
 import Lightbox from 'React/Components/Lightbox/Lightbox.jsx';
 
 import { servicesData } from '../servicesData';
 
 const Item = ({service}) => {
 
+    const { media } = useMediaQuery();
+
     const LightboxContent = () => {
         return (
             <div>
                 <img src={ service.image } alt={ service.title } />
                 <h3>{ service.title }</h3>
-                <h3>{ service.cost }</h3>
-                <h3>{ service.description }</h3>
+                <div className="cost">{ service.cost }</div>
+                <p>{ service.description }</p>
                 
             </div>
         );
     }
 
+    const width = (media.mdUp) ? '400px' : '200px';
+
     return (
         <ItemStyled className='Item'>
-            <Lightbox LightboxContent={ LightboxContent }>
+            <Lightbox LightboxContent={ LightboxContent } width={ width }>
                 <img src={ service.image } alt={ service.title } /> 
                 <h3>{ service.title }</h3>
             </Lightbox>
