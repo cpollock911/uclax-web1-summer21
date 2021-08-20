@@ -35,6 +35,9 @@ export default Dark;
 const DarkStyled = styled.div`
 
     position: fixed;
+
+    z-index: 1000;
+
     background-color: rgba(0, 0, 0, 0.722);
 
     left: 0px;

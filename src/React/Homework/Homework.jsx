@@ -235,7 +235,18 @@ const Homework = () => {
                 question='Function vs Form: When are web images considered part of the content (HTML) as opposed to part of the appearance (CSS)?'
             >
                 <h3>HTML and CSS: Web Images</h3>
+                <p>Adding an image to the website is done through either HTML or CSS.  The programming language you choose decides how the image will be interacting with the website and the user.  HTML and CSS handle web images differently, with HTML focusing on content and CSS focusing on visual design.</p>
+                <p>Web images use HTML when the image is a part of the content.  HTML also permits the image to be interactable with the user by using an alt tag.  An alt tag will create an alt text for the image, which will allow users to read the image when using a text-only browser or screen reading.  Alt tags will also increase your search engine ratings, which increases web traffic.  Examples of HTML images would include logos, shoppable images, digital photos in articles, etc.</p>
+                <p>Web images use CSS for stylistic reasons.  Using CSS for a web image will mean that the image is not interactable with the user.  CSS utilizes the "background-image" property for insertion.  Images with CSS are primarily best for page presentation and visual design.  CSS images are also easier to position and control in comparison to HTML.  CSS would be the best choice if you stylized your web page with images repeating every paragraph or an image covering the background.</p>
+                <p>Both CSS and HTML have their uses for web images.  CSS focuses on stylizing images and also positioning and control.  HTML is more content-based and allows users to interact with the images and read them if they are a screen reader or use a text-only browser.</p>
             </Essay>
+            <Essay
+                number={ 12 }
+                question={ 'What is the difference between IDs, Classes and Tags? How does Specificity play a role in the selection of HTML elements (both in CSS and JS)' }
+            >
+                <h3>ID's, Classes, and Tags</h3>
+            </Essay>
+
         </div>
     );
 }
