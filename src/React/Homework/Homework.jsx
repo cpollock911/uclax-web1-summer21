@@ -245,6 +245,16 @@ const Homework = () => {
                 question={ 'What is the difference between IDs, Classes and Tags? How does Specificity play a role in the selection of HTML elements (both in CSS and JS)' }
             >
                 <h3>ID's, Classes, and Tags</h3>
+                <p>IDs, classes, and tags play essential parts when creating the layout of a website.  These elements tie into specificity in CSS and JS and allow these languages to identify and modify their attributes.</p>
+                <p>IDs, classes, and tags all have their qualities for HTML.  An ID will be a unique identifier for an entire document but must not contain any white spaces.  It allows other languages to identify the element when linking, scripting, or styling.  For example, if I were to stylize an ID with CSS, I would use "#" before the ID to specify it and then stylize it.  However, if I were to stylize a class element, I would use "." before the class to select it and then stylize it.  Classes typically identify more than one element for an entire document, which differs from a unique ID.  In addition, classes can also contain white spaces and are case-sensitive.  JavaScript can specify a class to access and manipulate it.  Tags are the building block elements that HTML uses to create a website.  Tag elements can include elements like p, div, and h1 and essentially formats the website.  Tag elements typically surround content so it can be accessible on the site itself.  IDs, classes, and tags are important when it comes to the specificity and stylizing via CSS.</p>
+                <p>Specificity is vital when it comes to selecting specific HTML elements for stylization. Therefore, CSS will use a score/rank system to determine which style declarations apply to an element.  The specificity hierarchy ranks inline styles as the highest, followed by IDs, classes, attributes and pseudo-classes, and element selectors.  When there is equal specificity between elements, then the latest rule will apply to the element.  JavaScript plays a part in specificity when it comes to altering the attributes that are in effect.</p>
+                <p>Overall, IDs, classes, and tags are essential for building a website and styling it.  IDs provide unique identifiers for styling specific elements and are one of the top items for specificity ranking.  Stylizing multiple elements is what classes can handle best.  In addition, tags are best for creating the skeleton of the website and formatting content appropriately.</p>
+            </Essay>
+            <Essay
+                number={ 13 }
+                question='What is a CSS Preprocessor? What are some examples? In React, what are styled components? How do Styled Components violate separation of concerns?'
+            >
+                <h3>CSS Preprocessor and Styled Components</h3>
             </Essay>
 
         </div>
