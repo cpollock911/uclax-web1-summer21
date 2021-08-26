@@ -40,24 +40,5 @@ const ContactStyled = styled.div`
             }
         }
     }
-    
-    background-color: #d6c7fa;
 
-    @media (min-width: 800px) {
-        background-color: #fae7f7;
-    }
-
-    @media (min-width: 1200px) {
-        background-color: #e7edfa;
-    }
-
-    h1 {
-        background-color: white;
-        color: black;
-    
-
-        @media ${mediaQueries.md} {
-            background-color: #e7edfa;
-        }
-    }
 `;
