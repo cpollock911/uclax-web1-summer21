@@ -255,7 +255,20 @@ const Homework = () => {
                 question='What is a CSS Preprocessor? What are some examples? In React, what are styled components? How do Styled Components violate separation of concerns?'
             >
                 <h3>CSS Preprocessor and Styled Components</h3>
+                <p>Innovating coding processes is essential for developers. CSS preprocessors aim to add logic to CSS code with various features through installation.  Sass and LESS are primary examples of these programs.  Styled-components from React also streamlines the coding processes by allowing developers to work on HTML, JS, and CSS all in one space.</p>
+                <p>A CSS preprocessor is an installable program for generating CSS from its unique syntax.  These programs allow additional features not available with CSS on their own and essentially extend the logic to CSS code.  Features can include variables, nesting, mixins, functions, nesting selectors, inheritance selectors, and more.  In addition, these additional features essentially make the CSS structure easier to read and maintain.</p>
+                <p>Examples of a CSS preprocessor include Sass and LESS.  Sass is one of the oldest CSS preprocessors and stands for “syntactically awesome style sheet.”  Sass allows developers to utilize variables, if/else statements, for/while/each loops, inheritance, and other basic logic for CSS and uses the $ sign.  Features for Sass include DRY (don’t repeat yourself), which avoids duplication by using mixins and the @extend rule.  LESS, or leaner style sheets, is another preprocessor similar to Sass and shares similar features.  The critical difference between the two is that LESS is a JavaScript library that extends essential functions for CSS.  In addition, installing Node.js is necessary to run the compiler.  Also, LESS has the scopes feature, which allows variables to be accessible wherever they are.</p>
+                <p>Styled-components in React are a CSS-in-JS tool that allows the styling of components in a more accessible manner.  Features for styled-components include automatic vendor prefixing, unique class names, simple dynamic styling, plus many more. In addition, styled-components use tagged template literals for styling components. For example, if I wanted to style a text block, I could use styled-components to style the h1 background and align text while adding padding to the space around the text.</p>
+                <p> Styled-components violate the separation of concerns by grouping HTML, JS, and CSS in one space with React.  For clarification, separation of concerns refers to a design principle where each computer program should be separate to address any specific concerns.  Essentially, separation of concern is the organization of code.</p>
+                <p>Overall, these programs streamline the coding processes for developers.  CSS preprocessors allow developers to add CSS logic, making it more readable and easier to manage.  Styled-components in React offer the ability to work on HTML, CSS, and JS all in one space instead of separating each language into its class.</p>
             </Essay>
+            <Essay
+                number={ 14 }
+                question='What is the difference between Web Hosts, Domains, and FTP?'
+            >
+                <h3>Web Hosts, Domains and FTP</h3>
+            </Essay>
+
 
         </div>
     );
