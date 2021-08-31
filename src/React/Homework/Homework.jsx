@@ -264,10 +264,20 @@ const Homework = () => {
             </Essay>
             <Essay
                 number={ 14 }
+                question='Final Project Defined'
+            >
+                <h3>Nico Makes Coffee</h3>
+                <p>My client for my final project will be my friend Nicolai, who has started his business, Nico Makes Coffee.  Nico Makes Coffee is a start-up coffee business that focuses on specialty lattes and cold brew while collaborating with local businesses.  Currently, the brand can be found at the Downey Farmer's Market every Saturday from 8 am-2 pm and is looking to expand in the Los Angeles area.</p>
+                <p>The purpose of this project is to create a web application for Nico Makes Coffee which will showcase his current selection, information regarding himself, his recent locations, and tips and tricks for brewing coffee at home.  In addition, the current selections page will double as a shopping page for when his business grows.</p>
+                <p>I chose this subject because he is a good friend whom I have known since high school.  I have been helping him grow his business and want to continue doing so with this new skill set.  I believe I can apply it to his business and hopefully promote his product even more.</p>
+            </Essay>            
+            <Essay
+                number={ 15 }
                 question='What is the difference between Web Hosts, Domains, and FTP?'
             >
-                <h3>Web Hosts, Domains and FTP</h3>
+                <h3>Web Hosts, Domains, and FTP</h3>
             </Essay>
+
 
 
         </div>

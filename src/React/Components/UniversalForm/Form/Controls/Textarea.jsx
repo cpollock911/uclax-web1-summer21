@@ -13,9 +13,11 @@ const Textarea = ({control}) => {
         updateControl(control.id, e.target.value, dispatch, state);
     }
 
+    const className = (!control.validation.isValid) ? 'Textarea error':'Textarea';
+
     return (
         <TextareaStyled
-            className='Textarea'
+            className={ className }
             type={ control.type }
             id={ control.id }
             value={ control.value }
@@ -37,7 +39,7 @@ const TextareaStyled = styled.textarea`
     &:focus{
         background-color: #eee;
     }
-    &:error{
+    &.error{
         border: solid 2px red;
     }
     
