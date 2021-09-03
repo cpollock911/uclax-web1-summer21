@@ -6,10 +6,10 @@ import UniversalForm from 'React/Components/UniversalForm/UniversalForm.jsx';
 const LoginForm = () => {
 
     const defaultFormData = {
-        apiUrl: '/email/send',
+        apiUrl: '/user/login',
         hasSubmitted: false,
-        requests: {},
-        responses: {},
+        request: {},
+        response: {},
         message: '',
 
         controls: [
