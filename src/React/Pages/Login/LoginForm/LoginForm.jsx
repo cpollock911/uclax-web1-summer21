@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 import UniversalForm from 'React/Components/UniversalForm/UniversalForm.jsx';
 
-const ContactForm = () => {
+const LoginForm = () => {
 
     const defaultFormData = {
         apiUrl: '/email/send',
@@ -14,9 +14,9 @@ const ContactForm = () => {
 
         controls: [
             {
-                id: 'fullname',
-                label: 'Full Name',
-                value: 'Chris Pollock',
+                id: 'username',
+                label: 'Username',
+                value: '',
                 type: 'text',
                 validation: {
                     isValid: true,
@@ -25,21 +25,10 @@ const ContactForm = () => {
                 }
             },
             {
-                id: 'email',
-                label: 'Email',
-                value: 'cpollock911@gmail.com',
-                type: 'text',
-                validation: {
-                    isValid: true,
-                    rules: ['required','email'],
-                    message: '',
-                }
-            },
-            {
-                id: 'message',
-                label: 'Message',
-                value: 'Hello',
-                type: 'textarea',
+                id: 'password',
+                label: 'Password',
+                value: '',
+                type: 'password',
                 validation: {
                     isValid: true,
                     rules: ['required'],
@@ -50,15 +39,14 @@ const ContactForm = () => {
     }
 
     return (
-        <ContactFormStyled className='ContactForm'>
+        <LoginFormStyled className='LoginForm'>
             <UniversalForm defaultFormData={ defaultFormData } />
-        </ContactFormStyled>
+        </LoginFormStyled>
     );
 }
 
-export default ContactForm;
+export default LoginForm;
 
-const ContactFormStyled = styled.div`
+const LoginFormStyled = styled.div`
     padding: 20px;
-
 `;

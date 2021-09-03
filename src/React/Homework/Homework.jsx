@@ -276,6 +276,15 @@ const Homework = () => {
                 question='What is the difference between Web Hosts, Domains, and FTP?'
             >
                 <h3>Web Hosts, Domains, and FTP</h3>
+                <p>A web host is a service that gives companies and individuals the ability to post their website or web page on the internet.  These web hosting providers have specific features that come with using them.  These features include FTP access, email accounts, website building tools, and databases.  Typically, web hosting services require individuals or businesses to own their domain names to generate domain-specific email accounts.</p>
+                <p>A web host is the virtual home of your website; however, if you want to find the website, you will need the domain name.  An individual typically types your website's domain name into the web browser's URL bar so they can find it.  In addition, the domain name represents an IP address that consists of numbers that your computer recognizes.  Domains utilize words so individuals can use a website's name instead of remembering a slew of digits.  Your domain also represents your email accounts and allows individuals to contact you at a unique email address specific to your domain.</p>
+                <p>FTPs, or file transfer protocol, is a way to send files between computers.  FTP represents both the method of sending and receiving files and the name of the program itself.  In addition, FTPs will upload your web pages to the internet while they are on your computer and send them to the ISP's web server.  These web pages populate when using the correct URL for the domain, which is accessible due to a web hosting provider.</p>
+            </Essay>
+            <Essay
+                number={ 16 }
+                question='What is a Package Manager (e.g. NPM, Composer)? How does it play a role in software development?'
+            >
+                <h3>Package Managers</h3>
             </Essay>
 
 
