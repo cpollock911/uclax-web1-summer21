@@ -15,10 +15,11 @@ const Item = ({service}) => {
         return (
             <div>
                 <img src={ service.image } alt={ service.title } />
-                <h3>{ service.title }</h3>
-                <div className="cost">{ service.cost }</div>
-                <p>{ service.description }</p>
-                
+                    <p id="h4">
+                        <p>{ service.title }</p>
+                        <p>{ service.cost }</p>
+                        <p>{ service.description }</p>
+                    </p>
             </div>
         );
     }
@@ -41,12 +42,32 @@ const ItemStyled = styled.div`
     img {
         width: 100%;
         display: block;
+        border: 1px solid black;
     }
     h3 {
-        background-color: #d6c7fa;
+        background-color: #69c2ea;
         color: white;
         padding: 5px;
         font-size: 18px;
         margin: 0px;
+        text-align: center;
+        border: 1px solid black;
+    }
+    .h4 {
+        background-color: #69c2ea;
+        color: white;
+        padding: 5px;
+        font-size: 18px;
+        margin: 0px;
+        text-align: center;
+        border: 1px solid black;
+    }
+    p {
+        background-color: #69c2ea;
+        color: white;
+        padding: 5px;
+        font-size: 18px;
+        margin: 0px;
+        text-align: center;
     }
 `;

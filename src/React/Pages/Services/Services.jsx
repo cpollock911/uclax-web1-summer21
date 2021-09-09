@@ -7,7 +7,7 @@ const Services = () => {
 
     return (
         <ServicesStyled className='Services'>
-            <h1>Services</h1>
+            <h1>Check out our options!</h1>
             <Container />
         </ServicesStyled>
     );
@@ -16,5 +16,10 @@ const Services = () => {
 export default Services;
 
 const ServicesStyled = styled.div`
+    
+    h1 {
+        text-align: center;
+        color: white;
+    }
 
 `;

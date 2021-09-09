@@ -4,8 +4,9 @@ import styled from 'styled-components';
 const Header = () => {
     return (
         <HeaderStyled>
-            <h2>Spa Sanctuary</h2>
-            <h3>A SPA For Every Occasion</h3>
+            <div className="nicoMakesCoffee">
+            <img src="/img/coffee/nicomakescoffee.png" alt="Logo"></img>
+            </div>
         </HeaderStyled>
     )
 }
@@ -13,8 +14,15 @@ const Header = () => {
 export default Header;
 
 
-const HeaderStyled = styled.header`
-    background-color: #d6c7fa;
-    padding: 20px;
+const HeaderStyled = styled.div`
+    background-color: #f4acbc;
+    padding: 5px;
     text-align: center;
+    color: white;
+    font-size: 24px;
+
+    img {
+        width: 40%;
+        height: auto;
+    }
 `;

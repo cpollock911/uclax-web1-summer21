@@ -1,17 +1,12 @@
 export const tabbedData = [
     {
-        image: '/img/MissionVision/about.jpg',
-        title: 'About',
-        text: '<p><b>About</b> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, totam. Assumenda saepe fugit qui officiis ducimus libero incidunt consequatur deleniti, iste quod velit quaerat? Reprehenderit, exercitationem sint. Illum, molestias odit! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, totam. Assumenda saepe fugit qui officiis ducimus libero incidunt consequatur deleniti, iste quod velit quaerat? Reprehenderit, exercitationem sint. Illum, molestias odit! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, totam. Assumenda saepe fugit qui officiis ducimus libero incidunt consequatur deleniti, iste quod velit quaerat? Reprehenderit, exercitationem sint. Illum, molestias odit!</p> <p>About Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, totam. Assumenda saepe fugit qui officiis ducimus libero incidunt consequatur deleniti, iste quod velit quaerat? Reprehenderit, exercitationem sint. Illum, molestias odit! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, totam. Assumenda saepe fugit qui officiis ducimus libero incidunt consequatur deleniti, iste quod velit quaerat? Reprehenderit, exercitationem sint. Illum, molestias odit! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, totam. Assumenda saepe fugit qui officiis ducimus libero incidunt consequatur deleniti, iste quod velit quaerat? Reprehenderit, exercitationem sint. Illum, molestias odit!</p>',
+        image: '/img/Coffee/nicokat.jpg',
+        title: 'About Me',
+        text: '<p>My name is Nico and I make coffee :)</p><p>All of my coffee is brewed and bottled at 1667 Beverly Blvd. Los Angeles, CA 90026</p>'
     },
     {
-        image: '/img/MissionVision/mission.jpg',
-        title: 'Mission',
-        text: '<p><b>Mission</b> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, totam. Assumenda saepe fugit qui officiis ducimus libero incidunt consequatur deleniti, iste quod velit quaerat? Reprehenderit, exercitationem sint. Illum, molestias odit! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, totam. Assumenda saepe fugit qui officiis ducimus libero incidunt consequatur deleniti, iste quod velit quaerat? Reprehenderit, exercitationem sint. Illum, molestias odit! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, totam. Assumenda saepe fugit qui officiis ducimus libero incidunt consequatur deleniti, iste quod velit quaerat? Reprehenderit, exercitationem sint. Illum, molestias odit!</p>',
-    },
-    {
-        image: '/img/MissionVision/vision.jpg',
-        title: 'Vision',
-        text: '<p><b>Vision</b> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, totam. Assumenda saepe fugit qui officiis ducimus libero incidunt consequatur deleniti, iste quod velit quaerat? Reprehenderit, exercitationem sint. Illum, molestias odit! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, totam. Assumenda saepe fugit qui officiis ducimus libero incidunt consequatur deleniti, iste quod velit quaerat? Reprehenderit, exercitationem sint. Illum, molestias odit! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, totam. Assumenda saepe fugit qui officiis ducimus libero incidunt consequatur deleniti, iste quod velit quaerat? Reprehenderit, exercitationem sint. Illum, molestias odit!</p>',
+        image: '/img/Coffee/poster.png',
+        title: 'My Location(s)',
+        text: '<ul><li>Downey Farmer\'s Market</li><li>Pershing Square Farmer\'s Market</li><li>TBD</li></ul>'
     },
 ];

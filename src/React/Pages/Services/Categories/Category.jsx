@@ -20,16 +20,17 @@ export default Category;
 
 const CategoryStyled = styled.button`
     
-    background-color: #d6c7fa;
+    background-color: #8bdbf3;
     color: white;
-    border: none;
+    border: 1px solid black;
     border-radius: 5px 5px 5px 5px;
     padding: 10px 20px;
     margin: 0px 10px;
+    font-weight: bold;
 
     cursor: pointer;
 
     &.chosen {
-        background-color: #bfa3ff;
+        background-color: #69c2ea;
     }
 `;

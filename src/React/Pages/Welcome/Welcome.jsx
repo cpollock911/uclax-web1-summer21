@@ -1,20 +1,16 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import Playground from '../../Components/Lightbox/Playground.jsx';
+import Video from './Video/Video.jsx';
 import Slideshow from './Slideshow/Slideshow.jsx';
-import Tabbed from './Tabbed/Tabbed.jsx';
-import Staff from './Staff/Staff.jsx';
 
 const Welcome = () => {
 
     return (
         <WelcomeStyled className='Welcome'>
-            <h1>Welcome Page</h1>
-            <Playground />
+            <h1>Welcome!</h1>
             <Slideshow />
-            <Tabbed />
-            <Staff />
+            <Video />
         </WelcomeStyled>
     );
 }
@@ -22,5 +18,6 @@ const Welcome = () => {
 export default Welcome;
 
 const WelcomeStyled = styled.div`
-
+    text-align: center;
+    color: white;
 `;

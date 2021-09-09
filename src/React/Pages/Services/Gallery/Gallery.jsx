@@ -25,16 +25,16 @@ const Gallery = ({ services, curCat }) => {
 export default Gallery;
 
 const GalleryStyled = styled.div`
-    margin: 25px 0px;
+    margin: 50px 100px;
 
     display: grid;
 
     grid-gap: 20px;
 
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 
     @media ${mediaQueries.lgUp} {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 
 `;

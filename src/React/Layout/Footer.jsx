@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const Footer = () => {
     return (
         <FooterStyled>
-           Spa Sanctuary &copy; 2021
+           Nico Makes Coffee &copy; 2021
         </FooterStyled>
     )
 }
@@ -12,7 +12,9 @@ const Footer = () => {
 export default Footer;
 
 const FooterStyled = styled.footer`
-    background-color: #d6c7fa;
+    background-color: #f4acbc;
     padding: 10px;
     text-align: center;
+    color: white;
+    font-weight: bold;
 `;

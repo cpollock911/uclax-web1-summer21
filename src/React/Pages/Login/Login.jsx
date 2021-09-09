@@ -3,16 +3,14 @@ import styled from 'styled-components';
 
 import { mediaQueries } from 'common/mediaQueries/mediaQueries.js';
 
-import LoginForm from './LoginForm/LoginForm.jsx';
+import Tabbed from '../Welcome/Tabbed/Tabbed.jsx';
 
 const Login = () => {
 
     return (
         <LoginStyled className='Login'>
-            <h1>Login Page</h1>
-                <div className="col">
-                        <LoginForm />
-                </div>
+            <h1>About</h1>
+            <Tabbed />
         </LoginStyled>
     );
 }

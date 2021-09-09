@@ -1,32 +1,27 @@
 export const slidesData = [
     {
         arrKey: 0,
-        image: '/img/Slideshow/slide-1.jpg',
-        title: 'Slide 1 Title',
+        image: '/img/Coffee/slide-1.jpg',
+        title: 'The Coldest Brew',
     },
     {
         arrKey: 1,
-        image: '/img/Slideshow/slide-2.jpg',
-        title: 'Slide 2 Title',
+        image: '/img/Coffee/slide-2.jpg',
+        title: 'Passion for Mint',
     },
     {
         arrKey: 2,
-        image: '/img/Slideshow/slide-3.jpg',
-        title: 'Slide 3 Title',
+        image: '/img/Coffee/slide-3.jpg',
+        title: 'An Oat Milk Latte!',
     },
     {
         arrKey: 3,
-        image: '/img/Slideshow/slide-4.jpg',
-        title: 'Slide 4 Title',
+        image: '/img/Coffee/slide-4.jpg',
+        title: 'The Rosie Mae Latte',
     },
     {
         arrKey: 4,
-        image: '/img/Slideshow/slide-5.jpg',
-        title: 'Slide 5 Title',
-    },
-    {
-        arrKey: 5,
-        image: '/img/Slideshow/slide-6.jpg',
-        title: 'Slide 6 Title',
+        image: '/img/Coffee/slide-5.jpg',
+        title: 'Its Lavender, Hun',
     },
 ]

@@ -16,7 +16,6 @@ const Container = () => {
 
     return (
         <ContainerStyled className='Container'>
-            <p>{ curCat }</p>
             <Categories 
                 categories={ categories } 
                 curCat={ curCat }
@@ -30,5 +29,5 @@ const Container = () => {
 export default Container;
 
 const ContainerStyled = styled.div`
-    
+    padding: 25px;
 `;

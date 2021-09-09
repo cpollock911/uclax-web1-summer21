@@ -21,18 +21,19 @@ export default Tab;
 const TabStyled = styled.div`
     padding: 20px;
 
-    width: 150px;
+    width: fill;
     text-align: center;
+    font-weight: bold;
     color: white;
 
     cursor: pointer;
 
-    margin-right: 5px;
+    margin-right: 10px;
     border-radius: 5px 5px 0px 0px;
-
-    background-color: #d6c7fa;
+    
+    background-color: #8bdbf3;
 
     &.chosen {
-        background-color: #bfa3ff;
+        background-color: #69c2ea;
     }
 `;
